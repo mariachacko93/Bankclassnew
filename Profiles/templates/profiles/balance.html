@@ -13,9 +13,13 @@
 <!--    {{ form.as_p }}-->
 <!--    <button type="submit">Your Balance</button>-->
 <!--  </form>-->
-
+<table style="width:100%;border-spacing:5px;border:1px solid black;">
+<tr>
+    <td>
 <h2>Your Account Balance :{{object.balance}}</h2>
-
+    </td>
+    </tr>
+</table>
 
 <hr>
 <a href="{%url 'home'%}">back to Home</a>
